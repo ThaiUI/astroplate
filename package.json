@@ -4,10 +4,9 @@
   "description": "Astro and Tailwindcss boilerplate",
   "author": "zeon.studio",
   "license": "MIT",
-  "packageManager": "yarn@1.22.19",
   "scripts": {
-    "dev": "yarn generate-json && astro dev",
-    "build": "yarn generate-json && astro build",
+    "dev": "npm run generate-json && astro dev",
+    "build": "npm run generate-json && astro build",
     "preview": "astro preview",
     "format": "prettier -w ./src",
     "generate-json": "node scripts/jsonGenerator.js",
