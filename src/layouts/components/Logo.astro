@@ -1,9 +1,8 @@
 ---
-import config from "@/config/config.json";
-import ImageMod from "./ImageMod.astro";
+import config from '@/config/config.json';
+import ImageMod from './ImageMod.astro';
 
-const { src, srcDarkmode }: { src?: string; srcDarkmode?: string } =
-  Astro.props;
+const { src, srcDarkmode }: { src?: string; srcDarkmode?: string } = Astro.props;
 const {
   logo,
   logo_darkmode,
@@ -23,7 +22,7 @@ const {
 const { theme_switcher }: { theme_switcher: boolean } = config.settings;
 ---
 
-<a href="/" class="navbar-brand inline-block">
+<!-- <a href="/" class="navbar-brand inline-block">
   {
     src || srcDarkmode || logo || logo_darkmode ? (
       <>
@@ -60,4 +59,30 @@ const { theme_switcher }: { theme_switcher: boolean } = config.settings;
       title
     )
   }
+</a> -->
+<a href='/' class='navbar-brand inline-flex items-center gap-2'>
+  <svg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'>
+    <rect width='32' height='32' rx='16' fill='#2060B6'></rect>
+    <path
+      d='M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z'
+      fill='#2060B6'></path>
+    <path d='M6.73871 11.0132L8.0381 7.24414H25.2701L23.9707 11.0132H6.73871Z' fill='url(#paint0_linear_439_8)'></path>
+    <path
+      d='M25.2701 7.24414C25.2701 7.24414 13.6487 9.26311 13.6487 16.5099V25.7756H18.6415V16.5099C18.6415 16.5099 18.7898 11.1514 23.9552 11.1514L25.2701 7.24414Z'
+      fill='white'></path>
+    <defs>
+      <linearGradient
+        id='paint0_linear_439_8'
+        x1='6.73871'
+        y1='9.11358'
+        x2='25.2903'
+        y2='9.11358'
+        gradientUnits='userSpaceOnUse'
+      >
+        <stop stop-color='white'></stop>
+        <stop offset='1' stop-color='#2060B6'></stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  ThaiUI
 </a>

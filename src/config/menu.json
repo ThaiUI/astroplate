@@ -1,19 +1,19 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "หน้าแรก",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "เกี่ยวกับเรา",
       "url": "/about"
     },
     {
-      "name": "Elements",
+      "name": "ชิ้นส่วนต่างๆ",
       "url": "/elements"
     },
     {
-      "name": "Pages",
+      "name": "รูปแบบหน้า",
       "url": "",
       "hasChildren": true,
       "children": [

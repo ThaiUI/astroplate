@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "เทมเพลตตัวจบ สำหรับเริ่มต้นสร้างเว็บไซต์โดยใช้ Astro"
+  content: "Astroplate เป็นเทมเพลตเริ่มต้นแจกฟรีสำหรับสร้างเว็บไซต์ด้วย Astro และ Tailwind CSS, มาพร้อมทุกอย่างที่จำเป็นต้องใช้ เพื่อให้คุณเริ่มเว็บไซต์ได้ง่ายและรวดเร็ว - จัดเตรียมภาษาไทยโดย ThaiUI"
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/astroplate"
+    label: "เริ่มต้นเว็บภาษาไทยได้ฟรี ›"
+    link: "https://github.com/ThaiUI/astroplate"
 
 # Features
 features:
@@ -36,7 +36,7 @@ features:
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+      link: "https://github.com/ThaiUI/astroplate"
 
   - title: "The Top Reasons to Choose Astro for Your Next Project"
     image: "/images/service-3.png"

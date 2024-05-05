@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Astroplate",
-    "base_url": "https://astroplate.netlify.app",
+    "title": "Astroplate - ThaiUI",
+    "base_url": "https://astroplate.thaiui.org/",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -24,13 +24,13 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio), Thai version by [ThaiUI](https://thaiui.org)"
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/astroplate"
+    "label": "เริ่มต้นสร้างเว็บ",
+    "link": "https://github.com/ThaiUI/astroplate"
   },
 
   "disqus": {
